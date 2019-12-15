@@ -13,7 +13,7 @@
     "url": "git@github.com:French-Exception/frenchex-node-npm-project-create-api.git"
   },
   "publishConfig": {
-    "public": true
+    "access": "public"
   },
   "keywords": [],
   "author": "Stéphane ERARD <serard06@protonmail.com>",
