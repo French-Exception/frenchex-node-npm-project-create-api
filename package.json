@@ -1,14 +1,16 @@
 {
   "name": "@frenchex/npm-project-create-api",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsc -w",
+    "build": "tsc",
+    "release": "npm publish"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:French-Exception/frenchex-node-npm-project-create-cli.git"
+    "url": "git@github.com:French-Exception/frenchex-node-npm-project-create-api.git"
   },
   "publishConfig": {
     "public": true
