@@ -1,6 +1,6 @@
 {
   "name": "@frenchex/npm-project-create-api",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "",
   "main": "src/index.js",
   "scripts": {
@@ -30,12 +30,6 @@
     "typescript": "^3.7.2"
   },
   "dependencies": {
-    "@frenchex/npm-project-create-lib": "^1.0.0",
-    "child-process-promise": "^2.2.1",
-    "fs-extra": "^8.1.0",
-    "log4js": "^6.1.0",
-    "mkdirp": "^0.5.1",
-    "rimraf": "^3.0.0",
-    "yargs": "^15.0.2"
+    "@frenchex/npm-project-create-lib": "^1.0.0"
   }
 }
